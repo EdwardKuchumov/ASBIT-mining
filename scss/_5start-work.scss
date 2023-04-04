@@ -1,0 +1,280 @@
+.main {
+  // .main__work
+
+  &__work {
+  }
+}
+.container {
+}
+.work {
+  // .work__block
+
+  &__block {
+    padding-top: 60px;
+  }
+
+  // .work__quest-block
+
+  &__quest-block {
+  }
+
+  // .work__head
+
+  &__head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #1b1b22;
+  }
+
+  // .work__subhead
+
+  &__subhead {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1b1b22;
+  }
+
+  // .work__list
+
+  &__list {
+    padding-top: 14px;
+  }
+
+  // .work__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding-top: 34px;
+  }
+
+  // .work__number
+
+  &__number {
+    padding-right: 17px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    background: linear-gradient(94.73deg, #60b7ff 0%, #e255f3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  // .work__text-item
+
+  &__text-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1b1b22;
+  }
+
+  // .work__link
+
+  &__link {
+    color: #1111ff;
+  }
+
+  // .work__img-block
+
+  &__img-block {
+    text-align: center;
+  }
+
+  // .work__img
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+.design {
+  // .design__head
+
+  &__head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #1b1b22;
+    padding-top: 40px;
+  }
+  &__head span {
+    color: #e255f3;
+  }
+
+  // .design__list
+
+  &__list {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 60px;
+  }
+
+  // .design__item
+
+  &__item {
+    position: relative;
+    top: 0;
+    padding: 0 16px;
+    padding-top: 40px;
+    padding-bottom: 22px;
+    background: linear-gradient(180deg, #f6f9fd 0%, #ffffff 100%);
+    border-radius: 30px;
+  }
+
+  // .design__number
+  &__number {
+    position: absolute;
+    top: -20px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #6989fe 0%, #3c64f4 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__number span {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  // .design__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1b1b22;
+  }
+}
+.work__partners-block{
+    padding: 40px 20px 0 20px;
+    background: linear-gradient(180deg, #6989fe 0%, #3c64f4 100%);
+    mix-blend-mode: normal;
+    border-radius: 40px;
+}
+.partners {
+  // .partners__content
+
+  &__content {
+    padding-bottom: 40px;
+  }
+
+  // .partners__head
+
+  &__head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+
+  // .partners__subhead
+
+  &__subhead {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  &__button{
+    padding: 12px 24px;
+    background: linear-gradient(94.73deg, #F9FAFF 0%, #FFFFFF 100%);
+    border-radius: 40px;
+    color: #1111ff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  // .partners__img-block
+
+  &__img-block {
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  // .partners__img
+
+  &__img {
+    object-fit: cover;
+    width: 60%;
+  }
+
+  // .partners__one
+
+  &__one {
+    position: absolute;
+    bottom: 46px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+  &__one span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1111ff;
+  }
+
+  // .partners__three
+
+  &__three {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+  &__three span{
+    font-weight: 600;
+    font-size: 22px;
+    color: #1111ff;
+  }
+
+  // .partners__seven
+
+  &__seven {
+    position: absolute;
+    bottom: 48px;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+  &__seven span{
+    font-weight: 600;
+    font-size: 26px;
+    color: #1111ff;
+  }
+
+  // .parners__button
+
+
+}

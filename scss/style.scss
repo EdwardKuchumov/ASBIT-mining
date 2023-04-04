@@ -96,22 +96,22 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   padding: 0 10px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 
   position: relative;
 }
 .container {
 }
 
-.main__anim{
-    max-height: 500px;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    margin: 0 auto;
+.main__anim {
+  max-height: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin: 0 auto;
 }
 
 .toggle {
@@ -200,60 +200,267 @@ body {
   .strat__register {
     font-size: 16px;
   }
-  .main__start{
+  .main__start {
     max-width: 60%;
     margin: 0 auto;
   }
 }
 // адаптив для asic
-@media (min-width: 768px){
-    .asic__text-content{
-        font-size: 16px;
-    }
-    .asic__attach-list{
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 20px;
-        column-gap: 30px;
-    }
-    .main__anim{
-        max-height: 1000px;
-    }
+@media (min-width: 768px) {
+  .asic__text-content {
+    font-size: 16px;
+  }
+  .asic__attach-list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+  }
+  .main__anim {
+    max-height: 1000px;
+  }
 }
-@media (min-width: 1440px){
-    .asic__attach-list{
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 22px;
-        row-gap: 30px;
-    }
-    .asic__head{
-        transform: translate(0, 0);
-        left: auto;
-        right: 5%;
-    }
+@media (min-width: 1440px) {
+  .asic__attach-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 22px;
+    row-gap: 30px;
+  }
+  .asic__head {
+    transform: translate(0, 0);
+    left: auto;
+    right: 5%;
+  }
 }
 //  для company-activity
+@media (min-width: 768px) {
+  .company__block {
+    margin: 0 -30px;
+    padding: 0 30px;
+    background-size: cover;
+    background-position: 55% 132%;
+  }
+}
+@media (min-width: 1440px) {
+
+  .company__block {
+    
+    margin: 0 -30px;
+    padding: 0 0;
+    padding-top: 297px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 55% -10%;
+  }
+  .company__img-phone {
+    padding-top: 0;
+    width: 50%;
+  }
+  .company__block-img {
+    min-width: 500px;
+    top: -132px;
+  }
+  .company__img-bitcoin {
+    object-fit: cover;
+    top: -15px;
+    left: 75px;
+  }
+  .company__sphere-1 {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: -7%;
+    border-radius: 50%;
+    width: 258px;
+    height: 258px;
+    background: linear-gradient(112.72deg, #18c8ff 11.44%, #933ffe 60.27%);
+    box-shadow: inset 0px 20.0205px 20.0205px rgba(194, 255, 255, 0.25),
+      inset -5.00511px -5.00511px 20.0205px #6d2cc1,
+      inset -35.0358px -50.0511px 100.102px rgba(172, 60, 225, 0.76);
+  }
+  .company__sphere-2 {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50%;
+    width: 159px;
+    height: 159px;
+    background: linear-gradient(112.72deg, #18c8ff 11.44%, #933ffe 60.27%);
+    box-shadow: inset 0px 20.0205px 20.0205px rgba(194, 255, 255, 0.25),
+      inset -5.00511px -5.00511px 20.0205px #6d2cc1,
+      inset -35.0358px -50.0511px 100.102px rgba(172, 60, 225, 0.76);
+  }
+}
+// для advantage
 @media (min-width: 768px){
-    .company__block{
-        margin: 0 -30px;
-        padding: 0 30px;
-        background-size: cover;
-        background-position: 55% 132%;
+    .advantage__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 33px;
+    }
+    .advantage__head{
+        padding-top: 50px;
+        font-size: 34px;
+    }
+    .advantage__grid-item{
+        padding-top: 50px;
+    }
+    .advantage__item-head{
+        font-size: 18px;
+    }
+    .advantage__text{
+        font-size: 16px;
     }
 }
 @media (min-width: 1440px){
-    .company__block{
-        padding-top: 297px;
+    .advantage__grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 33px;
+    }
+    .advantage__head{
+        padding-top: 100px;
+        font-size: 34px;
+    }
+    .advantage__grid-item{
+        padding-top: 30px;
+    }
+}
+// для work
+@media (min-width: 768px){
+    .work__block{
+        padding-top: 70px;
+    }
+    .work__head{
+        font-size: 34px;
+    }
+    .work__subhead{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .work__number{
+        font-size: 40px;
+    }
+    .work__text-item{
+        font-size: 16px;
+    }
+    .work__item{
+        padding-top: 50px;
+        width: 50%;
+    }
+    .work__number{
+        padding-right: 30px;
+    }
+    .work__img-block{
+        padding-top: 50px;
+    }
+    .work__img{
+        width: 80%;
+    }
+    .design__head{
+        font-size: 30px;
+        width: 505px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .design__list{
+        flex-direction: row;
+    }
+    .design__text{
+        font-size: 15px;
+    }
+    .design__item{
+        padding-top: 46px;
+        padding-bottom: 33px;
+    }
+    .design__number span{
+        font-size: 24px;
+    }
+    .design__number{
+        width: 52px;
+        height: 52px;
+    }
+    .work__partners-block{
+        padding: 60px 30px 0 30px;
+    }
+    .partners__head{
+        font-size: 30px;
+    }
+    .partners__subhead{
+        font-size: 16px;
+        padding-top: 16px;
+    }
+    .partners__button{
+        font-size: 16px;
+    }
+    .partners__one{
+        width: 60px;
+        height: 60px;
+        left: 53px;
+        
+    }
+    .partners__three{
+        width: 72px;
+        height: 72px;
+        left: 110px;
+        top: 65px;
+    }
+    .partners__seven{
+        width: 80px;
+        height: 80px;
+        right: 87px;
+    }
+    .partners__img-block{
+        padding-bottom: 60px;
+        padding-top: 36px;
+    }
+    .partners__img{
+        width: 50%;
+    }
+}
+@media (min-width: 1440px){
+    .work__block-start{
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        background-position: 55% -10%;
     }
-    .company__img-phone{
-        padding-top: 0;
+    .work__img{
+        width: 110%;
+    }
+    .work__item{
+        width: 70%;
+    }
+    .design__head{
+        width: 100%;
+    }
+    .design__list{
+        padding-top: 81px;
+    }
+    .work__partners-block{
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 100px 0 60px;
+    }
+    .partners__content{
         width: 50%;
     }
-    .company__block-img{
-        width: 50%;
-        top: -132px;
+    .partners__img-block{
+        
+    }
+    .partners__img{
+        width: 110%;
+        
+    }
+    .partners__three{
+        left: -25%;
+    }
+    .partners__one{
+        left: -40%;
+        bottom: 35%;
+    }
+    .partners__seven{
+        right: 0%;
+        bottom: 20%;
     }
 }
