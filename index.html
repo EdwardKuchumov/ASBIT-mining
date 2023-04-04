@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ASBIT-mining</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <div class="header__logo"><img src="./img/icons/logo.svg" alt="logo"></div>
+                <div class="header__group-soucety">
+                    <div class="header__soucety">
+                        <div class="header__link-soucety">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#4C6C91"/>
+                                <path d="M12.6278 15.9378C12.6278 15.9378 12.8588 15.9126 12.9772 15.7879C13.0855 15.6736 13.0817 15.4579 13.0817 15.4579C13.0817 15.4579 13.0673 14.4507 13.5437 14.302C14.0133 14.1557 14.6162 15.276 15.256 15.7068C15.7393 16.0325 16.1062 15.9612 16.1062 15.9612L17.8159 15.9378C17.8159 15.9378 18.7099 15.8838 18.2861 15.1937C18.251 15.1371 18.0388 14.683 17.0152 13.7501C15.9428 12.7736 16.0867 12.9316 17.3777 11.2422C18.164 10.2135 18.4783 9.58548 18.38 9.31693C18.2867 9.06006 17.7082 9.12827 17.7082 9.12827L15.7837 9.13995C15.7837 9.13995 15.641 9.1209 15.5352 9.18296C15.4319 9.2438 15.3649 9.38576 15.3649 9.38576C15.3649 9.38576 15.0607 10.1816 14.6543 10.8588C13.7973 12.2869 13.4548 12.3625 13.3146 12.274C12.9884 12.0669 13.0698 11.4432 13.0698 11.0001C13.0698 9.61559 13.2839 9.03855 12.6535 8.88922C12.4444 8.83944 12.2904 8.80687 11.7551 8.80134C11.0683 8.79458 10.4874 8.8038 10.1581 8.96173C9.93895 9.06682 9.76992 9.30157 9.87322 9.31509C10.0003 9.33168 10.2883 9.39129 10.441 9.59531C10.6382 9.85894 10.6314 10.4501 10.6314 10.4501C10.6314 10.4501 10.7447 12.0798 10.3665 12.282C10.1074 12.4209 9.75176 12.1376 8.98736 10.8416C8.59608 10.1779 8.30058 9.44414 8.30058 9.44414C8.30058 9.44414 8.24361 9.3071 8.14157 9.23335C8.01823 9.14425 7.84607 9.11659 7.84607 9.11659L6.01738 9.12827C6.01738 9.12827 5.74255 9.13564 5.64175 9.25302C5.55223 9.35687 5.63487 9.57257 5.63487 9.57257C5.63487 9.57257 7.06664 12.8609 8.68811 14.5183C10.175 16.0374 11.8628 15.9378 11.8628 15.9378H12.6278Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="header__link-soucety">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#FF0000"/>
+                                <path d="M18.1326 9.03622C17.9854 8.47072 17.5517 8.02541 17.0009 7.87427C16.0028 7.59961 12.0001 7.59961 12.0001 7.59961C12.0001 7.59961 7.99741 7.59961 6.99922 7.87427C6.44846 8.02541 6.01472 8.47072 5.86752 9.03622C5.6001 10.0611 5.6001 12.1996 5.6001 12.1996C5.6001 12.1996 5.6001 14.338 5.86752 15.363C6.01472 15.9285 6.44846 16.3738 6.99922 16.525C7.99741 16.7996 12.0001 16.7996 12.0001 16.7996C12.0001 16.7996 16.0028 16.7996 17.0009 16.525C17.5517 16.3738 17.9854 15.9285 18.1326 15.363C18.4001 14.338 18.4001 12.1996 18.4001 12.1996C18.4001 12.1996 18.4001 10.0611 18.1326 9.03622Z" fill="white"/>
+                                <path d="M10.7998 14.4004V10.4004L13.9998 12.4005L10.7998 14.4004Z" fill="#FF0000"/>
+                            </svg>
+                        </div>
+                        <div class="header__link-soucety">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="url(#paint0_linear_481_97)"/>
+                                <path d="M9.8002 17.5C9.41144 17.5 9.4775 17.3532 9.34342 16.9831L8.2002 13.2206L17.0002 8" fill="#C8DAEA"/>
+                                <path d="M9.7998 17.4997C10.0998 17.4997 10.2324 17.3625 10.3998 17.1997L11.9998 15.6439L10.004 14.4404" fill="#A9C9DD"/>
+                                <path d="M10.0042 14.4407L14.8402 18.0136C15.3921 18.3181 15.7904 18.1605 15.9278 17.5013L17.8963 8.225C18.0979 7.41698 17.5883 7.0505 17.0604 7.29018L5.50137 11.7473C4.71236 12.0637 4.71696 12.5039 5.35755 12.7001L8.32385 13.6259L15.1912 9.29341C15.5153 9.09682 15.8129 9.20251 15.5687 9.41925" fill="url(#paint1_linear_481_97)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_481_97" x1="9.0012" y1="1.0008" x2="3.0012" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#37AEE2"/>
+                                <stop offset="1" stop-color="#1E96C8"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_481_97" x1="10.498" y1="12.7369" x2="11.7802" y2="16.8843" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#EFF7FC"/>
+                                <stop offset="1" stop-color="white"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="header__link-soucety">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="url(#paint0_linear_481_97)"/>
+                                <path d="M9.8002 17.5C9.41144 17.5 9.4775 17.3532 9.34342 16.9831L8.2002 13.2206L17.0002 8" fill="#C8DAEA"/>
+                                <path d="M9.7998 17.4997C10.0998 17.4997 10.2324 17.3625 10.3998 17.1997L11.9998 15.6439L10.004 14.4404" fill="#A9C9DD"/>
+                                <path d="M10.0042 14.4407L14.8402 18.0136C15.3921 18.3181 15.7904 18.1605 15.9278 17.5013L17.8963 8.225C18.0979 7.41698 17.5883 7.0505 17.0604 7.29018L5.50137 11.7473C4.71236 12.0637 4.71696 12.5039 5.35755 12.7001L8.32385 13.6259L15.1912 9.29341C15.5153 9.09682 15.8129 9.20251 15.5687 9.41925" fill="url(#paint1_linear_481_97)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_481_97" x1="9.0012" y1="1.0008" x2="3.0012" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#37AEE2"/>
+                                <stop offset="1" stop-color="#1E96C8"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_481_97" x1="10.498" y1="12.7369" x2="11.7802" y2="16.8843" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#EFF7FC"/>
+                                <stop offset="1" stop-color="white"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="header__mail-block">
+                        <img src="./img/icons/mail.svg" alt="mail" class="mail-img">
+                        <a href="#" class="mail">support@as-bitpro.ru</a>
+                        <a href="#" class="mail">admin@as-bitpro.ru</a>
+                    </div>
+                </div>
+                <div class="header__nav-button">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#" class="header__item-link">Главная</a></li>
+                            <li class="header__item"><a href="#" class="header__item-link">Инвесторам</a></li>
+                            <li class="header__item"><a href="#" class="header__item-link">Faq</a></li>
+                            <li class="header__item"><a href="#" class="header__item-link">О нас</a></li>
+                            <li class="header__item"><a href="#" class="header__item-link">Правила</a></li>
+                            <li class="header__item"><a href="#" class="header__item-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__button"><a href="#" class="header__link-bot">Перейти в бот</a></div>
+                </div>
+                <button class="header__burger"><div class="header__burger-link"></div></button>
+                <div class="header__burger-modal toggle">
+                    <div class="header__burger-modal-block">
+                        <ul class="header__burger-modal-item">
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">Главная</a></li>
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">Инвесторам</a></li>
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">Faq</a></li>
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">О нас</a></li>
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">Правила</a></li>
+                            <li class="header__item-burg"><a href="#" class="header__item-link-burg">Контакты</a></li>
+                        </ul>
+                        <div class="header__soucety-burg">
+                            <div class="header__link-soucety-burg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#4C6C91"/>
+                                    <path d="M12.6278 15.9378C12.6278 15.9378 12.8588 15.9126 12.9772 15.7879C13.0855 15.6736 13.0817 15.4579 13.0817 15.4579C13.0817 15.4579 13.0673 14.4507 13.5437 14.302C14.0133 14.1557 14.6162 15.276 15.256 15.7068C15.7393 16.0325 16.1062 15.9612 16.1062 15.9612L17.8159 15.9378C17.8159 15.9378 18.7099 15.8838 18.2861 15.1937C18.251 15.1371 18.0388 14.683 17.0152 13.7501C15.9428 12.7736 16.0867 12.9316 17.3777 11.2422C18.164 10.2135 18.4783 9.58548 18.38 9.31693C18.2867 9.06006 17.7082 9.12827 17.7082 9.12827L15.7837 9.13995C15.7837 9.13995 15.641 9.1209 15.5352 9.18296C15.4319 9.2438 15.3649 9.38576 15.3649 9.38576C15.3649 9.38576 15.0607 10.1816 14.6543 10.8588C13.7973 12.2869 13.4548 12.3625 13.3146 12.274C12.9884 12.0669 13.0698 11.4432 13.0698 11.0001C13.0698 9.61559 13.2839 9.03855 12.6535 8.88922C12.4444 8.83944 12.2904 8.80687 11.7551 8.80134C11.0683 8.79458 10.4874 8.8038 10.1581 8.96173C9.93895 9.06682 9.76992 9.30157 9.87322 9.31509C10.0003 9.33168 10.2883 9.39129 10.441 9.59531C10.6382 9.85894 10.6314 10.4501 10.6314 10.4501C10.6314 10.4501 10.7447 12.0798 10.3665 12.282C10.1074 12.4209 9.75176 12.1376 8.98736 10.8416C8.59608 10.1779 8.30058 9.44414 8.30058 9.44414C8.30058 9.44414 8.24361 9.3071 8.14157 9.23335C8.01823 9.14425 7.84607 9.11659 7.84607 9.11659L6.01738 9.12827C6.01738 9.12827 5.74255 9.13564 5.64175 9.25302C5.55223 9.35687 5.63487 9.57257 5.63487 9.57257C5.63487 9.57257 7.06664 12.8609 8.68811 14.5183C10.175 16.0374 11.8628 15.9378 11.8628 15.9378H12.6278Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="header__link-soucety-burg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#FF0000"/>
+                                    <path d="M18.1326 9.03622C17.9854 8.47072 17.5517 8.02541 17.0009 7.87427C16.0028 7.59961 12.0001 7.59961 12.0001 7.59961C12.0001 7.59961 7.99741 7.59961 6.99922 7.87427C6.44846 8.02541 6.01472 8.47072 5.86752 9.03622C5.6001 10.0611 5.6001 12.1996 5.6001 12.1996C5.6001 12.1996 5.6001 14.338 5.86752 15.363C6.01472 15.9285 6.44846 16.3738 6.99922 16.525C7.99741 16.7996 12.0001 16.7996 12.0001 16.7996C12.0001 16.7996 16.0028 16.7996 17.0009 16.525C17.5517 16.3738 17.9854 15.9285 18.1326 15.363C18.4001 14.338 18.4001 12.1996 18.4001 12.1996C18.4001 12.1996 18.4001 10.0611 18.1326 9.03622Z" fill="white"/>
+                                    <path d="M10.7998 14.4004V10.4004L13.9998 12.4005L10.7998 14.4004Z" fill="#FF0000"/>
+                                </svg>
+                            </div>
+                            <div class="header__link-soucety-burg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="url(#paint0_linear_481_97)"/>
+                                    <path d="M9.8002 17.5C9.41144 17.5 9.4775 17.3532 9.34342 16.9831L8.2002 13.2206L17.0002 8" fill="#C8DAEA"/>
+                                    <path d="M9.7998 17.4997C10.0998 17.4997 10.2324 17.3625 10.3998 17.1997L11.9998 15.6439L10.004 14.4404" fill="#A9C9DD"/>
+                                    <path d="M10.0042 14.4407L14.8402 18.0136C15.3921 18.3181 15.7904 18.1605 15.9278 17.5013L17.8963 8.225C18.0979 7.41698 17.5883 7.0505 17.0604 7.29018L5.50137 11.7473C4.71236 12.0637 4.71696 12.5039 5.35755 12.7001L8.32385 13.6259L15.1912 9.29341C15.5153 9.09682 15.8129 9.20251 15.5687 9.41925" fill="url(#paint1_linear_481_97)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_481_97" x1="9.0012" y1="1.0008" x2="3.0012" y2="15" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#37AEE2"/>
+                                    <stop offset="1" stop-color="#1E96C8"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_481_97" x1="10.498" y1="12.7369" x2="11.7802" y2="16.8843" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EFF7FC"/>
+                                    <stop offset="1" stop-color="white"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="header__link-soucety-burg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="url(#paint0_linear_481_97)"/>
+                                    <path d="M9.8002 17.5C9.41144 17.5 9.4775 17.3532 9.34342 16.9831L8.2002 13.2206L17.0002 8" fill="#C8DAEA"/>
+                                    <path d="M9.7998 17.4997C10.0998 17.4997 10.2324 17.3625 10.3998 17.1997L11.9998 15.6439L10.004 14.4404" fill="#A9C9DD"/>
+                                    <path d="M10.0042 14.4407L14.8402 18.0136C15.3921 18.3181 15.7904 18.1605 15.9278 17.5013L17.8963 8.225C18.0979 7.41698 17.5883 7.0505 17.0604 7.29018L5.50137 11.7473C4.71236 12.0637 4.71696 12.5039 5.35755 12.7001L8.32385 13.6259L15.1912 9.29341C15.5153 9.09682 15.8129 9.20251 15.5687 9.41925" fill="url(#paint1_linear_481_97)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_481_97" x1="9.0012" y1="1.0008" x2="3.0012" y2="15" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#37AEE2"/>
+                                    <stop offset="1" stop-color="#1E96C8"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_481_97" x1="10.498" y1="12.7369" x2="11.7802" y2="16.8843" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EFF7FC"/>
+                                    <stop offset="1" stop-color="white"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="header__mail-block-burg">
+                            <a href="#" class="mail-burg">support@as-bitpro.ru</a>
+                            <a href="#" class="mail-burg">admin@as-bitpro.ru</a>
+                        </div>
+                        <div class="header__button-burg"><a href="#" class="header__link-bot-burg">Перейти в бот</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__start">
+            <div class="container">
+                <h1 class="start__head">ПЕРЕДОВОЙ КРИПТОДОБЫВАЮЩИЙ СЕРВИС</h1>
+                <div class="start__text">Инвестиции в собственный бизнес по добыче цифрового золота.</div>
+                <button class="strat__register">Зарегестрироваться</button>
+            </div>
+            
+        </div>
+        <div class="main__asic">
+            <div class="container">
+                <div class="asic__slider-block">
+                    <div class="asic__slider-container swiper-asic">
+                        <ul class="asic__slider-list swiper-wrapper">
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Electrum asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1%</div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 10 до 3 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Advanced asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1,3% </div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 3000 до 10 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Digital Asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1,5%</div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 10 000 до 100 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Electrum asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1%</div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 10 до 3 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Advanced asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1,3% </div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 3000 до 10 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                            <li class="asic__slider-item swiper-slide">
+                                <div class="asic__head">Digital Asic</div>
+                                <img src="./img/asic.svg" alt="asic" class="asic__img">
+                                <div class="asic__interest-text">1,5%</div>
+                                <div class="asic__text-head">на 100 дней</div>
+                                <div class="asic__text-content">от 10 000 до 100 000$ - тело депозита замораживается на 100 дней.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="asic__next swiper-button-next"><img src="./img/icons/arrow-slider.svg" alt=""></div>
+                    <div class="asic__prev swiper-button-prev"><img src="./img/icons/arrow-slider.svg" alt=""></div>
+                </div>
+                <div class="asic__attach-block">
+                    <div class="asic__attach-container">
+                        <ul class="asic__attach-list">
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Инстант</div>
+                                    <div class="attach__content">(ручные, быстрые) выплаты</div>
+                                </div>
+                            </li>
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Реферальная программа</div>
+                                    <div class="attach__content">имеет три уровня 7%, 3% и 1% </div>
+                                </div>
+                            </li>
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Тело депозита возвращается</div>
+                                    <div class="attach__content">в конце срока инвестирования. </div>
+                                </div>
+                            </li>
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Процент дохода выше чем в банках</div>
+                                    <div class="attach__content"> и других видах инвестиций.  </div>
+                                </div>
+                            </li>
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Порог входа от 10$</div>
+                                    <div class="attach__content">и первая прибыль через 5-30 дней.</div>
+                                </div>
+                            </li>
+                            <li class="asic__attach-item">
+                                <img src="./img/icons/arrow-complite.svg" alt="complite" class="attach__arrow">
+                                <div class="attach__text">
+                                    <div class="attach__head">Простое ведение бизнеса</div>
+                                    <div class="attach__content"> с нашей квалифицированной помощью. </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__company-active">
+            <div class="container">
+                <div class="company__block">
+                    <div class="company__block-img">
+                        <img src="./img/phone-img.png" alt="phone" class="company__img-phone">
+                        <img src="./img/Bitcoin-phone.png" alt="bitcoin" class="company__img-bitcoin">
+                        <img src="./img/LiteCoin-phone.png" alt="LiteCoin-phone" class="company__img-ligthcoin">
+                        <img src="./img/Etherium-phone1.png" alt="Etherium-phone1" class="company__img-ether">
+                    </div>
+                    <div class="company__head-item-block">
+                        <h2 class="company__head">Деятельность компании</h2>
+                        <div class="company__content">AS-BIT invest ведущая платформа для инвестирования в криптовалюту и ее добычу.<br>Отдельная экосистема объединяющая самые актуальные направления инвестирования в криптоиндустрии:</div>
+                        <div class="company__list">
+                            <div class="company__trade">
+                                <img src="./img/icons/trading.svg" alt="tradding" class="company__img" id="trade">
+                                <div class="company__text"><span>Трейдинг</span>- скальпинг криптовалют с использованием автоматизированных роботов.</div>
+                            </div>
+                            <div class="company__trade">
+                                <img src="./img/icons/maning.svg" alt="tradding" class="company__img">
+                                <div class="company__text"><span>Майнинг</span> - добыча Bitcoin с помощью asic в оборудованных дата центрах 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__advantage">
+            <div class="container">
+                <div class="advantage__block">
+                    <h2 class="advantage__head">Наши преимущества</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="main__anim"></div>
+    <footer class="footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/animation.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

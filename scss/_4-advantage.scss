@@ -1,0 +1,23 @@
+.main {
+  // .main__advantage
+
+  &__advantage {
+  }
+}
+
+.advantage {
+  // .advantage__block
+
+  &__block {
+  }
+
+  // .advantage__head
+
+  &__head {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #1b1b22;
+  }
+}

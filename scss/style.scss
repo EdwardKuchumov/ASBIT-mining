@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  color: inherit;
+}
+@import "_header.scss";
+@import "_start-page.scss";
+@import "_2-asic.scss";
+@import "_3-company-activity.scss";
+@import "_4-advantage.scss";
+@import "_5start-work.scss";
+@import "_6-profit.scss";
+@import "_7-about-company.scss";
+@import "_8-FAQ.scss";
+@import "_footer.scss";
+/*--------------------*/
+$colortext: #1a1b24;
+
+body {
+  font-family: Montserrat;
+  color: colortext;
+  min-width: 320px;
+  overflow-x: hidden;
+  padding: 0 10px;
+  background: #F5F5F5;
+
+  position: relative;
+}
+.container {
+}
+
+.main__anim{
+    max-height: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.toggle {
+  right: -120%;
+  transition: all 1s;
+  opacity: 0;
+}
+// адаптив для шапки
+@media (min-width: 768px) {
+  body {
+    padding: 0 30px;
+  }
+  .header__soucety {
+    display: flex;
+  }
+  .header__button {
+    display: block;
+  }
+  .header__logo img {
+    width: 100px;
+    height: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .header__group-soucety {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    right: 0;
+    gap: 92px;
+  }
+  .header__mail-block {
+    display: flex;
+    align-items: center;
+  }
+  .header__nav {
+    display: block;
+  }
+  .header__logo img {
+    width: 150px;
+    height: 120px;
+  }
+  .container {
+    max-width: 1224px;
+    margin: 0 auto;
+  }
+  .header__burger {
+    display: none;
+  }
+  .header__button,
+  .header__nav {
+    margin-top: 35px;
+  }
+  .header__button {
+    margin-left: 50px;
+  }
+}
+// адаптив для start-page
+@media (min-width: 768px) {
+  .start {
+    &__head {
+      padding-top: 58px;
+      font-size: 32px;
+    }
+    &__text {
+      padding-bottom: 48px;
+      font-size: 16px;
+    }
+  }
+  .strat__register {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1440px) {
+  .start {
+    &__head {
+      padding-top: 41px;
+      font-size: 44px;
+    }
+    &__text {
+      padding-bottom: 40px;
+      font-size: 16px;
+    }
+  }
+  .strat__register {
+    font-size: 16px;
+  }
+  .main__start{
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+// адаптив для asic
+@media (min-width: 768px){
+    .asic__text-content{
+        font-size: 16px;
+    }
+    .asic__attach-list{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+    .main__anim{
+        max-height: 1000px;
+    }
+}
+@media (min-width: 1440px){
+    .asic__attach-list{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 22px;
+        row-gap: 30px;
+    }
+    .asic__head{
+        transform: translate(0, 0);
+        left: auto;
+        right: 5%;
+    }
+}
+//  для company-activity
+@media (min-width: 768px){
+    .company__block{
+        margin: 0 -30px;
+        padding: 0 30px;
+        background-size: cover;
+        background-position: 55% 132%;
+    }
+}
+@media (min-width: 1440px){
+    .company__block{
+        padding-top: 297px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: 55% -10%;
+    }
+    .company__img-phone{
+        padding-top: 0;
+        width: 50%;
+    }
+    .company__block-img{
+        width: 50%;
+        top: -132px;
+    }
+}

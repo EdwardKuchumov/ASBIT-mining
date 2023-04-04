@@ -1,0 +1,122 @@
+.main {
+  // .main__company-active
+
+  &__company-active {
+  }
+}
+
+.company {
+  // .company__block
+
+  &__block {
+    background: url(../img/background-company1.svg)no-repeat, url(../img/background-company2.svg)no-repeat;
+    background-position: 75% 132%;
+    // background-size: cover;
+    margin: 0 -10px;
+    padding: 0 10px;
+  }
+
+  // .company__head
+
+  &__head {
+    padding-top: 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+
+  // .company__content
+
+  &__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148%;
+    color: #ffffff;
+  }
+
+  // .company__list
+
+  &__list {
+    padding-bottom: 162px;
+  }
+
+  // .company__trade
+
+  &__trade {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  // .company__img
+
+  &__img {
+    padding: 8px;
+    background: linear-gradient(180deg, #6989FE 0%, #3C64F4 100%);
+    border-radius: 50%;
+    margin-right: 14px;
+  }
+
+  // .company__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148%;
+    color: #ffffff;
+  }
+  &__text span{
+    font-weight: 600;
+  }
+}
+#trade{
+    padding: 11px 8px;
+}
+.company {
+
+    // .company__block-img
+
+    &__block-img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    // .company__img-phone
+
+    &__img-phone {
+        object-fit: cover;
+        padding-top: 80px;
+        position: relative;
+        z-index: 2;
+    }
+
+    // .company__img-bitcoin
+
+    &__img-bitcoin {
+        position: absolute;
+        top: 50px;left: 20px;
+        z-index: 1;
+        // transform: rotate(30deg);
+    }
+
+    // .company__img-ligthcoin
+
+    &__img-ligthcoin {
+        position: absolute;
+        bottom: 61px;
+        left: 0;
+    }
+
+    // .company__img-ether
+
+    &__img-ether {
+        position: absolute;
+        bottom: -25px;
+        right: -10px;
+    }
+}
+
