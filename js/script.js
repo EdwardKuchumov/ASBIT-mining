@@ -42,6 +42,7 @@ const swiper = new Swiper('.swiper-asic', {
 // accrodion
 const plusButton = document.querySelectorAll('.faq__item');
 const textAccord = document.querySelectorAll('.span');
+const plusRotate = document.querySelectorAll('.faq__plus-block');
 
 textAccord.forEach(function(item){
   // console.log(item);
@@ -51,7 +52,7 @@ plusButton.forEach(function(item){
   item.addEventListener('click', function(){
     // console.log(item);
     item.querySelector('.span').classList.toggle('hiddens')
-    
+    item.querySelector('.faq__plus-block').classList.toggle('rotate')
   })
 })
 
