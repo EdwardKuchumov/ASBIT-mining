@@ -141,6 +141,7 @@ a {
 .header__burger-link.active {
   transition: all 1s;
   transform: rotate(45deg);
+  margin-top: 10px;
 }
 .header__burger-link.active::before {
   transition: all 1s;

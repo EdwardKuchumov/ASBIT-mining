@@ -64,6 +64,7 @@
 .header__burger-link.active{
     transition: all 1s;
     transform: rotate(45deg);
+    margin-top: 10px;
     &::before{
         transition: all 1s;
         transform: rotate(-90deg);
