@@ -1,0 +1,119 @@
+.main {
+  // .main__profit
+
+  &__profit {
+  }
+}
+
+.profit {
+  // .profit__block
+
+  &__block {
+  }
+
+  // .profit__head
+
+  &__head {
+    padding-top: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  // .profit__trade-block
+
+  &__trade-block {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  // .profit__trade
+
+  &__trade {
+    background: linear-gradient(180deg, #FAFCFF 0%, #ffffff 100%);
+    border-radius: 40px;
+    padding: 30px 15px 38px 15px;
+  }
+
+  // .profit__trade-head
+
+  &__trade-head {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    
+  }
+  &__trade-head svg{
+    color: #1111FF;
+    
+  }
+  &__trade-head-text{
+    padding-left: 10px;
+  }
+
+  // .profit__trade-text
+
+  &__trade-text {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+  }
+  &__trade-text span{
+    font-weight: 600;
+  }
+
+  // .profit__about
+
+  &__about {
+  }
+
+  // .profit__about-img
+
+  &__about-img {
+    padding-top: 60px;
+  }
+
+  // .profit__about-content
+
+  &__about-content {
+  }
+
+  // .profit__about-head
+
+  &__about-head {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1a1b24;
+  }
+  &__flex {
+  }
+}
+.about {
+  // .about__img
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  // .about__text
+
+  &__text {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+  }
+  &__text span{
+    font-weight: 600;
+  }
+}

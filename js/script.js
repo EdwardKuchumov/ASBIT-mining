@@ -39,3 +39,23 @@ const swiper = new Swiper('.swiper-asic', {
     // And if we need scrollbar
 
   });
+// accrodion
+const plusButton = document.querySelectorAll('.faq__item');
+const textAccord = document.querySelectorAll('.span');
+
+textAccord.forEach(function(item){
+  // console.log(item);
+})
+plusButton.forEach(function(item){
+  // console.log(item);
+  item.addEventListener('click', function(){
+    // console.log(item);
+    item.querySelector('.span').classList.toggle('hiddens')
+    
+  })
+})
+
+function openAccord(){
+
+}
+

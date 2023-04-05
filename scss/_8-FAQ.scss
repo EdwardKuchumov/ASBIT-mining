@@ -1,0 +1,138 @@
+.main {
+  // .main__faq
+
+  &__faq {
+  }
+}
+.container {
+}
+.faq {
+  // .faq__block
+
+  &__block {
+    padding-top: 70px;
+  }
+
+  // .faq__head
+
+  &__head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #1c1c1c;
+  }
+
+  // .faq__quest-block
+
+  &__quest-block {
+  }
+
+  // .faq__list
+
+  &__list {
+  }
+
+  // .faq__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C8DAEA;
+    padding: 16px 0;
+  }
+
+  // .faq__text
+
+  &__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1b1b22;
+    position: relative;
+  }
+
+  // .faq__plus-block
+
+  &__plus-block {
+    background: #ffffff;
+    border-radius: 50%;
+    min-width: 30px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .faq__plus
+
+  &__plus {
+    position: relative;
+    top: 0;
+    width: 10px;
+    height: 2px;
+    background: #080f4d;
+  }
+  &__plus::before {
+    content: "";
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    background: #080f4d;
+    transform: rotate(90deg);
+  }
+}
+.span{
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    display: block;
+    font-weight: 400;
+    padding-top: 10px;
+    transition: all 1s;
+    height: 0%;
+}
+.hiddens{
+    position: relative;
+    opacity: 1;
+    top: 0%;
+    height: 100%;
+}
+.faq {
+
+    // .faq__company-block
+
+    &__company-block {
+        padding-top: 70px;
+    }
+
+    // .faq__logo-grid
+
+    &__logo-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    // .faq__logo-item
+
+    &__logo-item {
+        width: 140px;
+        height: 83px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background: #ffffff;
+        border-radius: 30px;
+    }
+
+    // .faq__logo-img
+
+    &__logo-img {
+        object-fit: cover;
+        
+    }
+}
