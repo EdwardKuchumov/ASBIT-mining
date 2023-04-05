@@ -20,9 +20,11 @@
     // .header__burger
 
     &__burger {
-        width: 27px;
-        height: 24px;
+        width: 30px;
+        height: 28px;
         background-color: transparent;
+        display: flex;
+        
     }
 
     // .header__burger-link
@@ -34,6 +36,7 @@
         position: relative;
         z-index: 16;
         transition: all 1s;
+        
 
         &::after{
             content: '';
@@ -49,7 +52,7 @@
         &::before{
             content: '';
             position: absolute;
-            top: -10px;
+            top: 20px;
             left: 0;
             width: 27px;
             height: 2px;
@@ -68,9 +71,12 @@
     }
     &::after{
         transition: all 1s;
+        top: 0;
         width: 0;
         height: 0;
+        background-color: #f50000;
         opacity: 0;
+        transform: rotate(0deg);
     }
 }
 .header {
