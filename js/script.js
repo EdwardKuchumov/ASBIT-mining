@@ -10,7 +10,6 @@ burgerBtn.addEventListener("click", function () {
     burgerHrest.classList.add("active");
   }
 });
-
 // ==================================================Slider-Swiper
 const swiper = new Swiper('.swiper-asic', {
     // Optional parameters
@@ -41,12 +40,6 @@ const swiper = new Swiper('.swiper-asic', {
   });
 // accrodion
 const plusButton = document.querySelectorAll('.faq__item');
-const textAccord = document.querySelectorAll('.span');
-const plusRotate = document.querySelectorAll('.faq__plus-block');
-
-textAccord.forEach(function(item){
-  // console.log(item);
-})
 plusButton.forEach(function(item){
   // console.log(item);
   item.addEventListener('click', function(){
@@ -56,7 +49,4 @@ plusButton.forEach(function(item){
   })
 })
 
-function openAccord(){
-
-}
 
