@@ -38,12 +38,20 @@ const swiper = new Swiper('.swiper-asic', {
     // And if we need scrollbar
 
   });
-// accrodion
+//================================================ accrodion
 const plusButton = document.querySelectorAll('.faq__item');
 plusButton.forEach(function(item){
   item.addEventListener('click', function(){
     item.querySelector('.span').classList.toggle('hiddens')
     item.querySelector('.faq__plus-block').classList.toggle('rotate')
+  })
+})
+
+// flip card
+const cardAsic = document.querySelectorAll('.asic__slider-item');
+cardAsic.forEach((item)=>{
+  item.addEventListener('click', ()=>{
+    item.classList.toggle('flip')
   })
 })
 

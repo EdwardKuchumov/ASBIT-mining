@@ -218,6 +218,18 @@ body {
   .main__anim {
     max-height: 1000px;
   }
+  .asic__slider-item{
+    height: 415px;
+  }
+  .asic__img-info{
+    padding: 0;
+  }
+  .asic__slider-item-back{
+    padding: 0 20px;
+  }
+  .asic__head{
+    width: 54%;
+  }
 }
 @media (min-width: 1440px) {
   .asic__attach-list {
@@ -229,6 +241,13 @@ body {
     transform: translate(0, 0);
     left: auto;
     right: 5%;
+    width: auto;
+  }
+  .asic__slider-item{
+    height: 500px;
+  }
+  .asic__slider-item-back{
+    padding: 31px 20px;
   }
 }
 //  для company-activity
